@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+
+}
+
+.upper{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: block;
+}
+
+
+.information{
+    display: flex;
+    flex: 1;
+    border-color: blue;
+}
+.information h2{
+    font-size: 36px;
+    font-weight: 800;
+    display: block;
+
+}
+
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+
+}
+
+.action{
+    background: #3882f6;
+    padding: 16px;
+    height: 40px;
+    width: 800px;
+    display: flex;
+}
+
+.action.item{
+    flex: 1;
+}
