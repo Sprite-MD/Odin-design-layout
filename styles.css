@@ -1,16 +1,12 @@
-.header{
-    display: flex;
 
-}
-
-.upper{
+.containerone{
     background-color: #1f2937;
     color: #f9faf8;
     display: block;
 }
 
 
-.information{
+..containertwo{
     display: flex;
     flex: 1;
     border-color: blue;
@@ -22,14 +18,14 @@
 
 }
 
-.quote{
+.containerthree{
     background-color: #e5e7eb;
     color: #1f2937;
     font-size: 36px;
 
 }
 
-.action{
+.containerfour{
     background: #3882f6;
     padding: 16px;
     height: 40px;
@@ -37,6 +33,3 @@
     display: flex;
 }
 
-.action.item{
-    flex: 1;
-}
